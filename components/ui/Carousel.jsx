@@ -10,7 +10,7 @@ import {
   Autoplay,
   Navigation,
   EffectCards,
-} from "swiper";
+} from "swiper/modules";
 
 import "swiper/css";
 const Carousel = ({
@@ -37,8 +37,7 @@ const Carousel = ({
         navigation={navigation}
         className={className}
         autoplay={autoplay}
-        effect={effect}
-      >
+        effect={effect}>
         {children}
       </Swiper>
     </div>
